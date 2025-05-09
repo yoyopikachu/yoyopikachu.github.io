@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: Restaurantly
-Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
+Template Name: Sailor
+Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
