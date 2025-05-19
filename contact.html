@@ -138,9 +138,11 @@
 
           <!-- Right Column: Contact Form -->
           <div class="col-lg-8 form-col" data-aos="fade-up" data-aos-delay="200">
-            <form action="forms/contact.php" method="post" class="php-email-form">
-              <!-- Hidden field to pass the recipient email to your backend script -->
-              <input type="hidden" name="recipient" value="liangyu@uvu.edu">
+            <form action="https://formsubmit.co/liangyu@uvu.edu" method="POST" class="php-email-form">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_subject" value="New Contact Message from Lab Website">
+              <input type="hidden" name="_next" value="https://yoyopikachu.github.io/thank-you.html">
+
               <div class="row gy-4">
                 <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Your Name" required>
@@ -187,23 +189,19 @@
         </div>
 
         <!-- "Useful Links" and "Our Services" columns removed -->
-
         <div class="col-lg-4 offset-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Receive the latest news and updates about our lab!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <!-- Hidden field for newsletter recipient -->
-            <input type="hidden" name="recipient" value="liangyu@uvu.edu">
+          <form action="https://formsubmit.co/liangyu@uvu.edu" method="POST" class="php-email-form">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://yoyopikachu.github.io/thank-you.html">
+
             <div class="newsletter-form">
-              <input type="email" name="email" placeholder="Enter your email">
+              <input type="email" name="email" placeholder="Enter your email" required>
               <input type="submit" value="Subscribe">
             </div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
           </form>
         </div>
-      </div>
 
       <!-- Footer Bottom: Centered Copyright and Credits beneath -->
       <div class="container copyright text-center mt-4">

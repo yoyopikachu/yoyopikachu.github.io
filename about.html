@@ -137,18 +137,21 @@
                 <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
 
 -->
-          
-
-                  <a href="assets/files/YuYa_Liang_CV.pdf" class="btn btn-outline-dark d-flex align-items-center gap-2" target="_blank">
-                  <i class="bi bi-file-earmark-person"></i>
-                  <span>Download CV</span>
-                </a>
+                          
+                <div class="d-flex flex-wrap gap-2 mt-3">
+                  <!-- View CV -->
+                  <a href="assets/files/YuYa_Liang_CV.pdf" target="_blank" class="btn btn-sm btn-outline-dark d-flex align-items-center gap-1">
+                    <i class="bi bi-file-earmark-person"></i>
+                    <span>View CV</span>
+                  </a>
 
                   <!-- Google Scholar -->
-                  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="btn btn-outline-dark d-flex align-items-center gap-2">
+                  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="btn btn-sm btn-outline-dark d-flex align-items-center gap-1">
                     <i class="bi bi-mortarboard"></i>
                     <span>Google Scholar</span>
                   </a>
+                
+
                 </div>
 
               </div><!-- End Tab 1 Content -->
@@ -415,22 +418,21 @@
 
         <!-- "Useful Links" and "Our Services" columns removed -->
 
+        <!-- newsletter form -->
         <div class="col-lg-4 offset-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Receive the latest news and updates about our lab!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <!-- Hidden field for newsletter recipient -->
-            <input type="hidden" name="recipient" value="liangyu@uvu.edu">
+          <form action="https://formsubmit.co/liangyu@uvu.edu" method="POST" class="php-email-form">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://yoyopikachu.github.io/thank-you.html">
+
             <div class="newsletter-form">
-              <input type="email" name="email" placeholder="Enter your email">
+              <input type="email" name="email" placeholder="Enter your email" required>
               <input type="submit" value="Subscribe">
             </div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
           </form>
         </div>
-      </div>
+        <!-- end of newsletter form -->
 
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Plant Breeding & Genetics</strong> <span>All Rights Reserved</span></p>
