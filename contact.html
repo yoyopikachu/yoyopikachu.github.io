@@ -157,9 +157,7 @@
                   <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                 </div>
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  
                   <button type="submit">Send Message</button>
                 </div>
               </div>
@@ -192,10 +190,10 @@
         <div class="col-lg-4 offset-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Receive the latest news and updates about our lab!</p>
-          <form action="https://formsubmit.co/liangyu@uvu.edu" method="POST" class="php-email-form">
+          <form action="https://formsubmit.co/liangyu@uvu.edu" method="POST">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_next" value="https://yoyopikachu.github.io/thank-you.html">
-
+            <input type="hidden" name="_subject" value="New newsletter subscription">
             <div class="newsletter-form">
               <input type="email" name="email" placeholder="Enter your email" required>
               <input type="submit" value="Subscribe">
@@ -221,7 +219,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
