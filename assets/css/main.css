@@ -2493,3 +2493,10 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+@media (min-width: 992px) {
+  #hero .carousel-item .container {
+    max-width: 1500px;     /* wider than default (~720px) */
+    transform: translateX(15%); /* shift to the right */
+  }
+}
