@@ -1,18 +1,31 @@
 ---
-output: html_document
+title: "Divergent symbiont communities determine the physiology and nutrition of a reef coral across a light-availability gradient"
+author: "CB Wall*, M Kaluhiokalani, BN Popp, MJ Donahue, RD Gates (The ISME Journal) *cbwall@hawaii.edu"
+date: "12/17/2019"
+output:
+  html_document:
+    code_folding: hide
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## [ABOUT ME](./about-me) | [CV](./about-me/Fearn_CV.pdf) | [BIOL-3100-Final-Project](./BIOL-3100-Final)##
+## [ABOUT ME](./about-me) | [ramDOM PaPeR](./about-me/Antipov_et_al_2025.pdf) | [Project1](./PanKBay-isotopes_pub.html)##
 
-# **Tayler Fearn - Bioinformatician** #
+### [Project2](./BIOL-3100-Final.html)
+
+# **Yoyo Pikachu - Penguin** #
 
 ```{r, out.width="60%", echo=FALSE}
-knitr::include_graphics("./media/prof_portrait.jpg")
+knitr::include_graphics("./media/Baby penguin wikimedia commons.jpg")
 ```
 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+jfjfsdlkjflkjlgj, I'm a penguin I like eat fish!
